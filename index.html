@@ -6,3 +6,46 @@
   <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
 </head>
 <body>
+
+  <a-scene 
+    webxr="optionalFeatures: hit-test, local-floor;" 
+    ar-hit-test="target: #city-container;"
+    renderer="colorManagement: true;">
+
+    <a-assets>
+
+    </a-assets>
+
+    <a-light id="ambient-light" type="ambient" intensity="0.6"></a-light>
+    <a-light id="dir-light" type="directional" position="2 4 3" intensity="0.8"></a-light>
+
+    <a-sky id="vr-sky" color="#87CEEB" hide-on-enter-ar></a-sky>
+    <a-plane id="vr-ground" position="0 0 0" rotation="-90 0 0" width="20" height="20" color="#7BC8A4" hide-on-enter-ar></a-plane>
+
+    <a-entity id="city-container" position="0 0 -2">
+
+    </a-entity>
+
+    <a-entity id="ui-menu" position="-0.8 1.4 -1.2" rotation="0 25 0">
+
+    </a-entity>
+
+    <a-entity id="rig">
+      <a-camera position="0 1.6 0">
+
+        <a-cursor raycaster="objects: .clickable"></a-cursor>
+      </a-camera>
+      
+
+      <a-entity laser-controls="hand: left" raycaster="objects: .clickable"></a-entity>
+      <a-entity laser-controls="hand: right" raycaster="objects: .clickable"></a-entity>
+    </a-entity>
+
+  </a-scene>
+
+  <script>
+    
+  </script>
+
+</body>
+</html>
