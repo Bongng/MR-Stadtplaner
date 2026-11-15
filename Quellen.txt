@@ -1,0 +1,26 @@
+QUELLENANGABE
+
+1. FRAMEWORKS
+- A-Frame (Version 1.6.0)
+    - https://aframe.io/
+
+2. EXTERNE 3D-MODELLE (.glb)
+- Wohnhaus
+    - https://poly.pizza/m/75V_MLvKMqM
+    - https://poly.pizza/m/gAIES4rNfE
+    - https://poly.pizza/m/fdaqERLQCc
+
+- Hochhaus
+    - https://poly.pizza/m/dIsZyy2FUY-
+    - https://poly.pizza/m/7WF09z31G_v
+    - https://poly.pizza/m/dYEbYdPfJr
+
+- Baum
+    - https://poly.pizza/m/6Yjt8nIwLsD
+    - https://poly.pizza/m/qZtx0AHhcy
+    - https://poly.pizza/m/6pwiq7hSrHr
+
+- Straße
+    - https://poly.pizza/m/a38EEOJFUlp
+    - https://poly.pizza/m/e3QRTZLNQU5
+    - https://poly.pizza/m/9RFlFC9Znk4
